@@ -3,7 +3,7 @@ CNN_Malonama_Assignment
 Upgrad Malonama case study assignment
 
 ## Table of Contents
-* [General Info]
+* [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
@@ -34,6 +34,22 @@ The data set contains the following diseases:
 * Vascular lesion
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+
+
+## Technologies Used
+Python libraries used:
+- pathlib
+- tensorflow
+- matplotlib
+- numpy
+- pandas
+- PIL
+- seaborn
+- Augmentor
+
+
+<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+
 
 ## Conclusions
 We need to classify skin cancer using skin lesions images.
@@ -100,20 +116,6 @@ As per the final model (model3):
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
-
-## Technologies Used
-Python libraries used:
-- pathlib
-- tensorflow
-- matplotlib
-- numpy
-- pandas
-- PIL
-- seaborn
-- Augmentor
-
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.

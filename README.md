@@ -78,7 +78,7 @@ Create a CNN model, which can accurately detect 9 classes present in the dataset
 Use layers.experimental.preprocessing.Rescaling to normalize pixel values between (0,1). 
 The RGB channel values are in the [0, 255] range. 
 This is not ideal for a neural network. Here, it is good to standardize values to be in the [0, 1]
-![plot](~/Desktop/Analysis_1.png)
+![plot](/Users/rahugup4/Desktop/IIIT_Bangalore/neural_network/Case_Study_Assignment/CNN_Malonama_Assignment/Images/Analysis_1.png)
 
 From the above Training vs Validation accuracy graph, we can see that as the epoch increases the difference between Training accuracy and validation accuracy increases.
 So it seems to be overfitting.
@@ -88,7 +88,7 @@ So it seems to be overfitting.
 Dropout layer: randomly sets input units to 0 with a frequency of rate at each step during training time,
 which helps prevent overfitting.
 Inputs not set to 0 are scaled up by 1/(1 - rate) such that the sum over all inputs is unchanged.
-![plot](~/Desktop/Analysis_2.png)
+![plot](/Users/rahugup4/Desktop/IIIT_Bangalore/neural_network/Case_Study_Assignment/CNN_Malonama_Assignment/Images/Analysis_2.png)
 
 After using data augumentation and dropout layer, overfitting issue seems to have reduced.
 Model Performance has still not increased.
@@ -105,7 +105,7 @@ In order to use Augmentor, the following general procedure is followed:
 Instantiate a Pipeline object pointing to a directory containing your initial image data set.
 Define a number of operations to perform on this data set using your Pipeline object.
 Execute these operations by calling the Pipeline’s sample() method.
-![plot](~/Desktop/Analysis_3.png)
+![plot](/Users/rahugup4/Desktop/IIIT_Bangalore/neural_network/Case_Study_Assignment/CNN_Malonama_Assignment/Images/Analysis_3.png)
 
 
 ### Analysis based on the model and results:- 
